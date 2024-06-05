@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --font: 'Poppins', sans-serif;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: var(--font);
+}
+
+#head {
+    width: 100%;
+    float: left;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+#img {
+    padding: 9px;
+    width: 20%;
+    float: left;
+    
+}
+
+#main {
+    
+    width: 80%;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    padding: 10px;
+}
+
+.cls {
+    display: inline-block;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#buy {
+    background-color: #AAD236;
+    padding: 10px 30px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+
+#bg {
+    background-image: url(Vegan/images/landing-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: var(--font);
+    position: relative;
+}
+#main a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+color: black;
+}
+
+#sub {
+    text-align: center;
+    /* margin: 0 auto; */
+    /* padding: 250px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#sub h1 {
+    color: black;
+    font-size: 50px;
+}
+
+#sub p {
+    color: rgba(86, 86, 86, 0.813);
+    padding: 10px;
+}
+
+#icon {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.icon {
+    width: 25%;
+    float: left;
+    height: 600px;
+    color: white;
+    padding: 70px 40px;
+}
+
+#firststep {
+    background-color: #5acda6;
+}
+
+#secondstep {
+    background-color: #91ac41;
+}
+
+#thirdstep {
+    background-color: #e4b476;
+}
+
+#fourthstep {
+    background-color: #f69dad;
+}
+
+.icon i {
+    font-size: 96px;
+    color: white;
+    /* padding: 10px; */
+}
+
+.icon h3 {
+    font-weight: 600;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.icon p {
+    /* font-size: 14px; */
+    padding: 10px;
+    font-size: 16px;
+}
+
+#sec {
+    width: 100%;
+    background-color: #f7eee2;
+    /* padding-top: 75px;
+    padding-bottom: 75px; */
+    text-align: center;
+}
+
+#main2 {
+    width: 100%;
+    float: left;
+}
+
+#fresh {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+}
+
+#store {
+    font-size: 44px;
+    font-weight: 600;
+
+}
+
+#radish {
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+
+#sec {
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+#main2 {
+    padding: 20px;
+    max-width: 1600px;
+}
+
+#main3 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+
+.item {
+    width: 25%;
+    float: left;
+    height: 400px;
+    padding: 30px;
+}
+
+.storeitem {
+    height: 150px;
+    width: 150px;
+    background-color: #eaba7b;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 60px;
+    color: white;
+}
+
+.item h3 {
+    padding: 10px;
+}
+
+.item p {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#mid {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 75px 0;
+}
+
+#mid1 {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+}
+
+#mid1 h3 {
+    font-size: 44px;
+    font-weight: 600;
+
+}
+
+#desc {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #8b8b99;
+}
+
+#veg {
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0px;
+    max-width: 1600px;
+    
+}
+
+.veg1 {
+    width: 25%;
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    display: inline-block;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin: 16px;
+    padding-bottom: 50px;
+}
+
+.veg1 img{
+    width: 80px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+.veg1 h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.name {
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.mess{
+    font-size: 16px;
+    color: #8b8b99;
+}
+
+/* #mid2 {}  */
+
+#straw {
+    width: 67%;
+    float: left;
+  
+}
+#straw img{
+    width: 100%;
+}
+
+#follow {
+    width: 33%;
+    float: left;
+    background-image: url('/Vegan/images/strawberry-white.png');
+    background-size: cover;
+    background-position: left;
+    /* padding: 202.5px; */
+}
+
+#follow1 {
+
+    margin: 115px;
+    height: 450px;
+
+}
+
+#follow1 h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+
+}
+
+#follow1>p {
+    color: #8b8b99;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#email {
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+#submit {
+    margin-top: 15px;
+    width: 65%;
+    background-color: #AAD236;
+    padding: 16px 42px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+}
+
+#stats {
+    /* overflow: hidden; */
+    /* margin-top: 100px; */
+    width: 100%;
+}
+
+#stats1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1140px;
+    padding: 100px;
+}
+
+
+.no {
+    width: 25%;
+    float: left;
+    padding: 0 50px;
+}
+
+.no h3 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.no p {
+    color: #57e3b5;
+    font-size: 14px;
+
+    font-style: italic;
+    /* margin-top: 50px; */
+}
+
+#video{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#video1 h3{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+hr{
+    width: 96px;
+    display: inline-block;
+    height: 1px;
+    background-color: #e4b476;
+    margin-bottom: 36px;
+}
+
+#i1{
+    width: 100%;
+}
+
+iframe{
+    width: 1000px;
+    height: 525px;
+}
+
+#address{
+    width: 100%;
+    overflow: -moz-hidden-unscrollable;
+}
+
+#address1{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 100px 0px;
+
+}
+
+#left{
+    width: 50%;
+    float: left;
+    padding: 21px;
+}
+
+.contact {
+    color: #b2c414;
+    /* overflow: hidden; */
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    /* padding: 20px; */
+    margin-top: 10px;
+}
+
+#info {
+    font-size: 45px;
+    padding: 0px;
+}
+
+.info1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+    width: 70%;
+}
+
+#left h4{
+    font-size: 25px;
+}
+
+#right {
+    width: 50%;
+    float: left;
+    padding: 20.5px;
+}
+
+#right h3{
+    font-size: 40px;
+}
+
+.form1 {
+    width: 70%;
+    padding: 15px;
+    font-size: 12px;
+    color: grey;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+#right #submit{
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    width: 35%;
+    background-color: #AAD236;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+
+}
+
+#left h4{
+    margin: 25px 0px;
+}
+footer{
+    width: 100%;
+    float: left;
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    padding: 40px;
+    color: white;
+    
+}
+
+u{
+    color: red;
+    text-decoration: none;
+}
